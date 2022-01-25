@@ -3,10 +3,10 @@ import asyncio
 import sys
 import git
 import heroku3
-from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
-from RiZoeLXSpam import CMD_HNDLR as hl
+from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
+from HeartHacker import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
-from RiZoeLXSpam import ALIVE_PIC
+from HeartHacker import ALIVE_PIC
 from telethon import events, version, Button
 from telethon.tl.custom import button
 from time import time
@@ -19,7 +19,6 @@ rizoel = "✯ 𝙃𝙚𝙖𝙧𝙩𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝙃
 rizoel += f"═══════════════════\n"
 rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"• **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
