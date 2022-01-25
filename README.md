@@ -2,8 +2,7 @@
   <b>𝙃𝙚𝙖𝙧𝙩 𝙃𝙖𝙘𝙠𝙚𝙧 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩</b>
 </h1>
 
-[![Forks](https://img.shields.io/github/forks/AT-WORLDS-END/
-HeartHackerSpamBot?style=flat-square&color=orange)](https://github.com/AT-WORLDS-END/HeartHackerSpamBot/fork)
+[![Forks](https://img.shields.io/github/forks/AT-WORLDS-END/HeartHackerSpamBot?style=flat-square&color=orange)](https://github.com/AT-WORLDS-END/HeartHackerSpamBot/fork)
 [![Python](https://img.shields.io/badge/Python-v3.9.7-blue)](https://www.python.org/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/AT-WORLDS-END/HeartHackerSpamBot)
    
