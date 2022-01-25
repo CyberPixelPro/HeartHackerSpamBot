@@ -14,8 +14,7 @@
 
 # Deploy on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AT-WORLDS-END/
-HeartHackerSpamBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AT-WORLDS-END/HeartHackerSpamBot)
 
 
 # Support & Updates
