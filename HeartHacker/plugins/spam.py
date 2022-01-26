@@ -29,16 +29,16 @@ for x in SUDO_USERS:
 
 
 
-@Riz.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz2.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz3.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz4.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz5.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz6.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz7.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz8.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz9.on(events.NewMessage(pattern=r"\.bspam"))
-@Riz10.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz.on(events.NewMessage(pattern=r"\.spam"))
+@Riz2.on(events.NewMessage(pattern=r"\.spam"))
+@Riz3.on(events.NewMessage(pattern=r"\.spam"))
+@Riz4.on(events.NewMessage(pattern=r"\.spam"))
+@Riz5.on(events.NewMessage(pattern=r"\.spam"))
+@Riz6.on(events.NewMessage(pattern=r"\.spam"))
+@Riz7.on(events.NewMessage(pattern=r"\.spam"))
+@Riz8.on(events.NewMessage(pattern=r"\.spam"))
+@Riz9.on(events.NewMessage(pattern=r"\.spam"))
+@Riz10.on(events.NewMessage(pattern=r"\.spam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
