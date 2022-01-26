@@ -5,7 +5,7 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS, OWNER_ID
+from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
 
 from HeartHacker import CMD_HNDLR as hl
 from HeartHacker.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
@@ -31,8 +31,6 @@ async def echo(event):
             if int(user_id) in RiZoeLX:
                     text = f"I can't echo HeartHacker's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
-            elif int(user_id) == OWNER_ID:
-                    text = f"This guy is a owner Of this Bots."
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                     text = f"This guy is a sudo user."
