@@ -96,7 +96,7 @@
         "OWNER_ID": {
             "description": "put your owner id number",
           "value": "",
-          "required": True  
+          "required": True
         }
     },
 
