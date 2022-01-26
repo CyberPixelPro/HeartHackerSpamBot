@@ -3,7 +3,7 @@ import asyncio
 import sys
 import git
 import heroku3
-from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
+from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
 from HeartHacker import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
 from HeartHacker import ALIVE_PIC
@@ -152,7 +152,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
-    if event.sender_id == OWNER_ID:
+    if event.sender_id == SUDO_USERS:
         ok = await event.reply("Adding user as a sudo...")
         rizoel = "SUDO_USER"
         if HEROKU_APP_NAME is not None:
