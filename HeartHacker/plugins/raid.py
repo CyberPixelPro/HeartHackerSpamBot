@@ -5,7 +5,7 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS, OWNER_ID
+from HeartHacker import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
 from resources.data import RAID, REPLYRAID, RiZoeLX
 from HeartHacker import CMD_HNDLR as hl
 
@@ -37,7 +37,7 @@ async def spam(e):
             if int(g) in RiZoeLX:
                 text = f"I can't raid on HeartHacker's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
-            elif int(g) == OWNER_ID:
+            elif int(g) == SUDO_USERS:
                 text = f"This guy is a owner Of this Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
@@ -60,7 +60,7 @@ async def spam(e):
             if int(g) in RiZoeLX:
                 text = f"I can't raid on HeartHacker's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
-            elif int(g) == OWNER_ID:
+            elif int(g) == SUDO_USERS:
                 text = f"This guy is a owner Of this Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
@@ -130,7 +130,7 @@ async def _(e):
             if int(user_id) in RiZoeLX:
                 text = f" can't raid on HeartHacker's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
-            elif int(user_id) == OWNER_ID:
+            elif int(user_id) == SUDO_USERS:
                 text = f"This guy is a owner Of this Bots."            
                 await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
@@ -151,7 +151,7 @@ async def _(e):
             if int(user_id) in RiZoeLX:
                 text = f" can't raid on HeartHacker's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
-            elif int(user_id) == OWNER_ID:
+            elif int(user_id) == SUDO_USERS:
                 text = f"This guy is a owner Of this Bots."
                 await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
@@ -258,7 +258,7 @@ async def _(event):
                if int(e) in RiZoeLX:
                        text = f"I can't raid on HeartHacker's Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
-               elif int(e) == OWNER_ID:
+               elif int(e) == SUDO_USERS:
                        text = f"This guy is a owner Of this Bots."
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) in SUDO_USERS:
