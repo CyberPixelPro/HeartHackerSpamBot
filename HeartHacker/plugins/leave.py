@@ -9,16 +9,16 @@ import random
 import sys
     
 
-@Riz.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz2.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz3.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz4.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz5.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz6.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz7.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz8.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz9.on(events.NewMessage(pattern=r"\.bleave"))
-@Riz10.on(events.NewMessage(pattern=r"\.bleave"))
+@Riz.on(events.NewMessage(pattern=r"\.leave"))
+@Riz2.on(events.NewMessage(pattern=r"\.leave"))
+@Riz3.on(events.NewMessage(pattern=r"\.leave"))
+@Riz4.on(events.NewMessage(pattern=r"\.leave"))
+@Riz5.on(events.NewMessage(pattern=r"\.leave"))
+@Riz6.on(events.NewMessage(pattern=r"\.leave"))
+@Riz7.on(events.NewMessage(pattern=r"\.leave"))
+@Riz8.on(events.NewMessage(pattern=r"\.leave"))
+@Riz9.on(events.NewMessage(pattern=r"\.leave"))
+@Riz10.on(events.NewMessage(pattern=r"\.leave"))
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SUDO_USERS:
