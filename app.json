@@ -92,7 +92,17 @@
             "description": "Your app name to Update your bot",
           "value": "",
           "required": false  
-        }
+        },
+        "OWNER_ID": {
+            "description": "owner Id",
+            "value": "",
+            "required": true
+        },
+        "CMD_HNDLR": {
+            "description": "Custom command handler.",
+            "value": "!",
+            "required": false
+        }    
     },
 
   "addons": [
